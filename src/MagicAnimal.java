@@ -13,6 +13,20 @@ public class MagicAnimal
         this.weight = weight;
     }
 
+    public MagicAnimal()
+    {
+
+    }
+
+    public MagicAnimal(String name)
+    {
+        this.name = name;
+        this.type = "Dragon";
+        this.type = "Unicorn";
+        this.type = "Griffith";
+
+    }
+
     public String getName() {
         return name;
     }

@@ -8,6 +8,11 @@ public class Dragon extends MagicAnimal
         this.wings = wings;
     }
 
+    public Dragon()
+    {
+
+    }
+
     public int getWings()
     {
         return wings;

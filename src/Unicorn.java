@@ -7,6 +7,11 @@ public class Unicorn extends MagicAnimal
         this.hornSharp = hornSharp;
     }
 
+    public Unicorn()
+    {
+
+    }
+
     public int getHornSharp() {
         return hornSharp;
     }
@@ -16,7 +21,8 @@ public class Unicorn extends MagicAnimal
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Unicorn{" +
                 "name='" + name + '\'' +
                 ", type='" + type + '\'' +

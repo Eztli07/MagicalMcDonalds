@@ -7,6 +7,11 @@ public class Karen
         this.name = name;
     }
 
+    public Karen ()
+    {
+
+    }
+
     public String getName()
     {
         return name;
