@@ -10,7 +10,7 @@ public class Dragon extends MagicAnimal
 
     public Dragon()
     {
-
+    int wings;
     }
 
     public int getWings()

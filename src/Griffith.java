@@ -10,7 +10,7 @@ public class Griffith extends MagicAnimal
 
     public Griffith()
     {
-
+        String featherColor;
     }
 
     public String getFeatherColor()

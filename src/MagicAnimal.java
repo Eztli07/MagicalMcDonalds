@@ -15,7 +15,10 @@ public class MagicAnimal
 
     public MagicAnimal()
     {
-
+    String name;
+    String type;
+    int speed;
+    double weight;
     }
 
     public MagicAnimal(String name)

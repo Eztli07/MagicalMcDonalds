@@ -9,7 +9,7 @@ public class Unicorn extends MagicAnimal
 
     public Unicorn()
     {
-
+        int hornSharp;
     }
 
     public int getHornSharp() {

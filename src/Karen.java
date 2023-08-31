@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Karen
 {
     public String name;
@@ -9,7 +10,7 @@ public class Karen
 
     public Karen ()
     {
-
+        String name;
     }
 
     public String getName()
@@ -21,6 +22,8 @@ public class Karen
     {
         this.name = name;
     }
+
+    Scanner scan = new Scanner(System.in);
 
     @Override
     public String toString()
