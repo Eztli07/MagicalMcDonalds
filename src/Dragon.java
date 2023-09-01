@@ -24,7 +24,8 @@ public class Dragon extends MagicAnimal
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "The " + type + " is named " +  name + " it has a speed of  " + speed + " it weighs " + weight + " it has " + wings + " wings";
     }
 }

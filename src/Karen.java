@@ -31,8 +31,16 @@ public class Karen
         return "The Karen is " + name + "!";
     }
 
-    public  String racing()
+    public String racing()
     {
-        return "";
+        String animal1;
+        String animal2;
+
+        System.out.println("Choose the first animal to race");
+        animal1 = scan.nextLine();
+
+        System.out.println("Choose the second animal to race");
+        animal2 = scan.nextLine();
+        return "" + animal1 + animal2;
     }
 }

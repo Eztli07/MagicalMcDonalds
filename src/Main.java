@@ -36,5 +36,7 @@ public class Main
         System.out.println(unicorn.toString());
         System.out.println(griffith.toString());
 
+        System.out.println(karen.racing());
+
     }
 }

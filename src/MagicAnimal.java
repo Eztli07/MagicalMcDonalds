@@ -38,15 +38,18 @@ public class MagicAnimal
         this.name = name;
     }
 
-    public String getType() {
+    public String getType()
+    {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(String type)
+    {
         this.type = type;
     }
 
-    public int getSpeed() {
+    public int getSpeed()
+    {
         return speed;
     }
 
