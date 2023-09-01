@@ -25,11 +25,6 @@ public class Griffith extends MagicAnimal
 
     @Override
     public String toString() {
-        return "Griffith{" +
-                "name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", speed=" + speed +
-                ", weight=" + weight +
-                '}';
+        return "The " + type + " is named " +  name + " it has a speed of  " + speed + " it weighs " + weight + " its feathers are " + featherColor;
     }
 }

@@ -23,11 +23,6 @@ public class Unicorn extends MagicAnimal
     @Override
     public String toString()
     {
-        return "Unicorn{" +
-                "name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", speed=" + speed +
-                ", weight=" + weight +
-                '}';
+        return "The " + type + " is named " +  name + " it has a speed of  " + speed + " it weighs " + weight + " its horn sharpness is " + hornSharp;
     }
 }

@@ -19,8 +19,22 @@ public class Main
 
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Name yourself");
+        karen.setName(scan.nextLine());
+
         System.out.println("Name your dragon");
-        String name = scan.nextLine();
+        dragon.setName(scan.nextLine());
+
+        System.out.println("Name your unicorn");
+        unicorn.setName(scan.nextLine());
+
+        System.out.println("Name your griffith");
+        griffith.setName(scan.nextLine());
+
+        System.out.println(karen.toString());
+        System.out.println(dragon.toString());
+        System.out.println(unicorn.toString());
+        System.out.println(griffith.toString());
 
     }
 }

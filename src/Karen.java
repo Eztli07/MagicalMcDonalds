@@ -28,8 +28,11 @@ public class Karen
     @Override
     public String toString()
     {
-        return "Karen{" +
-                "name='" + name + '\'' +
-                '}';
+        return "The Karen is " + name + "!";
+    }
+
+    public  String racing()
+    {
+        return "";
     }
 }
