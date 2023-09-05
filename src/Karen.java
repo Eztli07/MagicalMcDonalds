@@ -41,6 +41,19 @@ public class Karen
 
         System.out.println("Choose the second animal to race");
         animal2 = scan.nextLine();
-        return "" + animal1 + animal2;
+
+        if (animal1 == "Dragon")
+        {
+            return "" + Dragon.toString();
+        }
+        else if (animal1 == "Unicorn");
+        {
+            return "" + Unicorn.toString();
+        }
+        else if (animal1 == "Griffith")
+        {
+            return "" + Dragon.toString();
+        }
+
     }
 }

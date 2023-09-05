@@ -27,7 +27,18 @@ public class MagicAnimal
         this.type = "Dragon";
         this.type = "Unicorn";
         this.type = "Griffith";
+    }
 
+    public String feed()
+    {
+        speed += 20;
+        weight += 5;
+        return ("Your " + type + "now has a speed of " + speed + " and a weight of " + weight);
+    }
+    public double speed()
+    {
+        double raceSpeed = ((speed * weight)/10);
+        return raceSpeed;
     }
 
     public String getName() {

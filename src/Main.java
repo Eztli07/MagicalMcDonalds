@@ -37,6 +37,5 @@ public class Main
         System.out.println(griffith.toString());
 
         System.out.println(karen.racing());
-
     }
 }
